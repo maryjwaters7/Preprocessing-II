@@ -1,1 +1,37 @@
 // Navigation Styles here
+
+.navi{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border-bottom:2px dashed @navigation-border;
+    padding-bottom: 2rem;
+    margin-top:2rem;
+
+    h1{
+        width:40%;
+        margin-left:10%;
+        padding-left:11%;
+    }//closes the h1
+        
+    #links{
+        display:flex;
+        justify-content:space-evenly;
+        width:40%;
+        margin-right:10%;
+        padding-right:9%;
+        
+
+        a{
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.6rem;
+            text-decoration: none; 
+            color: @font-color;
+
+            &:hover{
+                color:@eastern-blue;
+            }//closes hover
+        }//closes a
+    }//closes links
+
+}//closes navi

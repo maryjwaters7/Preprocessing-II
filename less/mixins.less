@@ -1,1 +1,19 @@
 // Mixins in here
+
+.custom-btn(@bgcolor, @width, @fontcolor){
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color: @bgcolor;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@fontcolor; 
+     
+     &:hover{
+       background-color:@sandy-beach;
+       color:@shark;     
+     }//closes hover
+}//closes button
